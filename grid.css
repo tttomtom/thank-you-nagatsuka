@@ -10,10 +10,10 @@
 .grid-album{
     display: grid;
     width: 96vw;
-    margin: 0 auto 3vw;
+    margin: 0 auto 10vw;
     gap: 2vw;
     grid-template-columns: 47vw 47vw;
-    grid-template-rows: repeat(35,47vw);
+    grid-template-rows: repeat(11,47vw);
 }
 
 .grid-item {
