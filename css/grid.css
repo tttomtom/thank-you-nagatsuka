@@ -1,0 +1,261 @@
+.grid-yosegaki{
+    display: grid;
+    width: 96vw;
+    margin: 0 auto 10vw;
+    gap: 2vw;
+    grid-template-columns: 47vw 47vw;
+    grid-template-rows: repeat(24,47vw);
+}
+
+.grid-album{
+    display: grid;
+    width: 96vw;
+    margin: 0 auto 3vw;
+    gap: 2vw;
+    grid-template-columns: 47vw 47vw;
+    grid-template-rows: repeat(35,47vw);
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.grid-big-top {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.grid-big-bottom {
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+
+.grid-big-big-bottom {
+    grid-column: 1/3;
+    grid-row: 9/10;
+}
+
+.grid-big-big-big-bottom {
+    grid-column: 1/3;
+    grid-row: 11/12;
+}
+
+.grid-big-big-big-big-bottom {
+    grid-column: 1/3;
+    grid-row: 20/21;
+}
+
+.grid-end{
+    grid-column: 1/3;
+    grid-row: 32/33;
+}
+
+.grid-big-end{
+    grid-column: 1/3;
+    grid-row: 33/35;
+}
+
+.one-big1{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    position: relative;
+    top: -0.7rem;
+    border-radius: 0%;
+    border: double thick skyblue;
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+}
+
+.one-big2{
+    grid-column: 1/3;
+    grid-row: 5/6;
+    border: double thick rgb(82, 51, 51);
+    background-color: burlywood;
+}
+
+.one-big3{
+    grid-column: 1/3;
+    grid-row: 8/9;
+}
+
+.one-big4{
+    grid-column: 1/3;
+    grid-row: 10/11;
+    border: double thick rgb(82, 51, 51);
+    background-color: burlywood;
+}
+
+.one-big5{
+    grid-column: 1/3;
+    grid-row: 14/15;
+}
+
+.one-big6{
+    grid-column: 1/3;
+    grid-row: 16/17;
+    border: double thick rgb(82, 51, 51);
+    background-color: burlywood;
+}
+
+.one-big7{
+    grid-column: 1/3;
+    grid-row: 19/20;
+}
+
+.one-big8{
+    grid-column: 1/3;
+    grid-row: 21/22;
+    border: double thick rgb(82, 51, 51);
+    background-color: burlywood;
+}
+
+.one-big9{
+    grid-column: 1/3;
+    grid-row: 24/25;
+}
+
+.one-big10{
+    grid-column: 1/3;
+    grid-row: 17/18;
+}
+
+.note {
+    background-image: linear-gradient(90deg, transparent 0%, transparent 50%, aliceblue 50%, aliceblue 100%), /* 点線1の色 */
+                      linear-gradient(180deg, #ccc 1px, transparent 1px); /* 点線2の色と太さ */
+    background-size: 8px 100%, /* 点線1のサイズ */
+                     100% 1em; /* 点線2のサイズ */
+    line-height: 1em; /* 文字の高さ */
+    padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+}
+
+.note2 {
+    background-image: linear-gradient(90deg, transparent 0%, transparent 50%, burlywood 50%, burlywood 100%), /* 点線1の色 */
+                      linear-gradient(180deg, white 1px, transparent 1px); /* 点線2の色と太さ */
+    background-size: 8px 100%, /* 点線1のサイズ */
+                     100% 1em; /* 点線2のサイズ */
+    line-height: 1em; /* 文字の高さ */
+    padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+}
+
+.one-big1::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 50px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big2::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 100px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big3::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 70px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big4::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 10px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big5::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 50px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big6::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 100px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big7::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 70px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big8::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 10px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-big9::before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(90deg, rgba(254, 248, 208, 0.827) 0%, rgba(254, 248, 208, 0.827) 50%, pink 50%, pink 100%);
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+    top: -20px;
+    left: 10px;
+    background-size: 20px 20px;
+    width:100px;
+    height:30px;
+}
+
+.one-wrapper-big{
+    padding: 0.7rem 1.2rem 0 1.2rem;
+}
