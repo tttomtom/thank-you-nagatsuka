@@ -1,7 +1,7 @@
 .contents{
   height: 100vh;
   background-color: bisque;
-  background-image: url(img/dots.svg) ,url(img/校舎背景.jpeg); 
+  background-image: url(dots.svg) ,url(校舎背景.jpeg); 
   background-size: 10px 10px,cover;
   background-blend-mode: multiply;
   height: 100vh;
