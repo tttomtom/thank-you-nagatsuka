@@ -125,12 +125,12 @@
 
 .one-big12{
     grid-column: 1/3;
-    grid-row: 27/28;
+    grid-row: 27/29;
 }
 
 .one-big13{
     grid-column: 1/3;
-    grid-row: 28/30;
+    grid-row: 29/31;
     border: double thick rgb(82, 51, 51);
     background-color: burlywood;
 }
